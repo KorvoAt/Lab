@@ -13,7 +13,7 @@ hoisting();
 const incScalar = (n) => ++n;
 
 const a = 5;
-const b = incScalar(1);
+const b = incScalar(a);
 console.dir({a,b});
 
 const incReference = (num) => ++num.n;
